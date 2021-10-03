@@ -1,0 +1,25 @@
+@font-face {
+  font-family: proMedium;
+  src: url(../fonts/DINNextLTPro-Medium.woff);
+}
+
+@font-face {
+  font-family: proBold;
+  src: url(../fonts/DINNextLTPro-Bold.woff);
+}
+
+@font-face {
+  font-family: proItalic;
+  src: url(../fonts/DINNextLTPro-Italic.woff);
+}
+
+@font-face {
+  font-family: proLight;
+  src: url(../fonts/DINNextLTPro-Light.woff);
+}
+
+@font-face {
+  font-family: proRegular;
+  src: url(../fonts/DINNextLTPro-Regular.otf);
+}
+/*# sourceMappingURL=font-face.css.map */
