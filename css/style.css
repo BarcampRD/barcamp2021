@@ -11002,6 +11002,18 @@ h5 {
   bottom: 0;
 }
 
+.registrocharlistas-container p::after {
+  position: absolute;
+  content: "";
+  width: 49px;
+  border: 2px solid #cbcbcb;
+  border-radius: 10px;
+  left: 0;
+  bottom: 0;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
 @media (max-width: 767.98px) {
   .informationBarcamp .informationDetails p {
     font-size: 14px;
@@ -11043,6 +11055,39 @@ h5 {
 @media (max-width: 767.98px) {
   .informationBarcamp a {
     font-size: 18px;
+  }
+}
+
+
+.registrocharlistas-container .btn {
+  padding: 14px 26px;
+  border-radius: 50px;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.registrocharlistas-container .btn .icon-arrow-right {
+  font-size: 14px;
+}
+
+.registrocharlistas-container a {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  font-family: proMedium;
+}
+
+@media (max-width: 767.98px) {
+  .registrocharlistas-container a {
+    font-size: 14px;
   }
 }
 
@@ -11287,6 +11332,21 @@ h5 {
   }
 }
 
+.registrocharlistas-container p {
+  color: #5c5c5c;
+  position: relative;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media (max-width: 767.98px) {
+  .registrocharlistas-container p {
+    font-size: 14px;
+  }
+}
+
 .attainment {
   position: relative;
   border: 2px solid #2986cc;
@@ -11386,6 +11446,8 @@ h5 {
 
 #desconferencias {
   padding-top: 100px;
+  padding-bottom: 100px;
+
 }
 
 #desconferencias .line {
@@ -11419,6 +11481,43 @@ h5 {
             justify-content: center;
   }
 }
+
+#registrocharlistas {
+  padding-top: 100px;
+}
+
+#registrocharlistas .line {
+  position: relative;
+}
+
+#registrocharlistas .line::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #2986cc;
+  left: -370px;
+  top: 32px;
+  z-index: -1;
+}
+
+@media (max-width: 767.98px) {
+  #registrocharlistas .line::after {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #registrocharlistas .line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 
 .control-room-tabs {
   margin-top: 13px;
