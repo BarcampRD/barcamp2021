@@ -100,6 +100,29 @@ const initSpeakers = speakers => {
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    initConferences(submissions);
-    initSpeakers(submissions);
+    //initConferences(submissions);
+    //initSpeakers(submissions);
+    console.log("si")
+    changeBG();
 });
+
+const changeBG = () => {
+    const slideBarcamp = document.getElementById(`slideBarcamp`);
+    const slideImages = [
+        "img/barcamp.webp", 
+        "img/online1.png", 
+        "img/online2.png", 
+        "img/online3.png", 
+        "img/online4.png",
+        "img/online5.png",
+    ]
+    var nextImg=1;
+    console.log("changebg")
+    setInterval(() => {
+        console.log(`Imagen ${nextImg}`)
+
+        slideBarcamp.style["background-image"] = `url("${slideImages[nextImg]}")`
+        nextImg == 5 ? nextImg = 0 : nextImg++
+    }, 2500)
+}
+

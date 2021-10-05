@@ -10942,14 +10942,14 @@ h5 {
 }
 
 .informationBarcamp img {
-  width: 427px;
-  height: 115px;
+  width: 328px;
+  height: 497px;
 }
 
 @media (max-width: 1199.98px) {
   .informationBarcamp img {
-    width: 337px;
-    height: 85px;
+    width: 259px;
+    height: 393px;
   }
 }
 
@@ -11105,10 +11105,28 @@ h5 {
   }
 }
 
+.slider-block{
+	height:350px;
+	display:inline-block;
+}
+#carousel {
+	height:100%;
+}
+#carousel .carousel-inner{
+	height:100%;
+}
+#carousel .item{
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	width:100%;
+	height:100%;
+}
+
 .slideBarcamp {
   border-bottom-left-radius: 100px;
-  background-image: url("../img/barcamp.webp");
   width: 100%;
+  background-image: url("../img/barcamp.webp");
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11116,6 +11134,7 @@ h5 {
   position: relative;
   top: -80px;
   height: 700px;
+  transition: background-image 1s ease-out;
 }
 
 .slideBarcamp .socialNav {
