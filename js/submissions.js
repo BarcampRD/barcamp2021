@@ -1,584 +1,275 @@
 const submissions = [
     {
-        "name": "Fred Pe\u00f1a",
-        "bio": "Java Developer, IT Manager y  Profesor por pasi\u00f3n, adicto a la Ingenier\u00eda de Software, con m\u00e1s de 10 a\u00f1os de experiencias, y una s\u00f3lidas formaci\u00f3n en Ingenier\u00eda Web.\r\n\r\n Amante del Open Source, cafe, Rock, y las diversas culturas gastronom\u00edca.\r\n\r\nInter\u00e9s constante por la actualizaci\u00f3n de los temas relacionados a tecnolog\u00eda.",
-        "avatar": "img/speakers/freddy_pena.jpg",
-        "country": "Santiago R.D.",
+        "name": "Luis Contreras",
+        "bio": "Senior IT Infrastructure Monitoring Engineer with an expertise in Monitoring solutions like (Nagios, Centreon, Icinga, Op5, and Zabbix). He has a proven experience in System / Network Administration, and developing monitoring projects, including complex integrations and developing plugins in Python, PHP, and PowerShell. His experience is based in the Retail, Government, Health, and IT Services industries. Participation in small observability projects using Grafana and Prometheus. Also, participating in PoC for SIEM Wazuh.",
+        "avatar": "img/speakers/luis_contreras.png",
+        "country": "R.D.",
         "talk": {
-            "schedule": "9:30 AM",
-            "title": "RabbitMQ: Alta disponibilidad y seguridad de los datos en la mensajer\u00eda.",
-            "abstract": "Explicaremos en que consiste el quorum queues, un nuevo tipo de cola en RabbitMQ. Esta se introdujo para lograr una alta disponibilidad y seguridad de los datos. Cubriremos y contrastaremos el dise\u00f1o del quorum y mirrored queues, y por qu\u00e9 quorum ofrecen una mejor seguridad de los datos.",
+            "schedule": "9:15 AM",
+            "title": "Wazuh - La plataforma de seguridad Opensource",
+            "abstract": "Contar con una plataforma de seguridad en estos días tiene un costo elevado, pero Wazuh vino para que las empresas sin importar su tamaño o rubro puedan sacar el mayor partido a una solución de seguridad en la cual cuenta con diferentes módulos.",
             "description": "",
-            "format": "Talk (30 minutes)",
+            "format": "Talk (40 minutes)",
             "audience_level": "All"
         },
         "tags": [
-            "Java",
-            "message-broker",
-            "RabbitMQ",
-            "message-oriented middleware",
-            "AMQP",
-            "STOMP",
-            "MQTT",
-            "Quorum Queues",
-            "Quorum",
-            "Queues",
-            "High Availability",
-            "Data Safety",
-            "messaging"
+            "open source",
+			"Docker",
+			"kubernetes",
+			"Cloud",
+			"security",
+			"siem",
+			"security",
+			"cybersecurity"
         ],
         "socials": [
             {
                 "icon": "fab fa-twitter",
                 "name": "Twitter",
-                "link": "https://twitter.com/fred_pena"
-            },
+                "link": "https://twitter.com/doluiscontreras"
+            }
+        ],
+        "status": "accepted",
+        "confirmed": true
+    },
+    {
+        "name": "David Gomez Garcia",
+		"avatar": "https://secure.gravatar.com/avatar/fd19c10b5cee3106900062c521f5d600?s=500",
+		"Country": "España",
+		"bio": "Java Champion, Developer Advocate @Liferay_es\r\n\r\nIngeniero Técnico en Informática de Sistemas por la UPM, David lleva más de 20 años dedicado al desarrollo de software y ha participado en proyectos para Banca, Defensa, Servicios y Transporte marítimo y terrestre. Desde hace dos años, David desarrolla su labor como Developer Advocate en Liferay.\r\n\r\nAdemás de como desarrollador, David realiza labores habituales de formación, ha sido Instructor Certificado para Spring Source y actualmente imparte los cursos avanzados de Java de JavaSpecialists en Español.\r\n\r\nEn los últimos 10 años, también ha estado involucrado de forma habitual y constante con varias comunidades tecnológicas de desarrollo, eventos y conferencias como ponente y organizador. Actualmente es uno de los co-organizadores del grupo de usuarios de Java en Madrid, del grupo de usuarios de Liferay y también es parte del comité técnico de Lambda World en Cádiz.\r\n\r\nHa sido ponente en conferencias como OpenExpo Europe 2019, Open Source Lisbon 2019, T3chFest (2014, 2016), JBCNConf (2015, 2016, 2017, 2018), Codemotion Madrid (2012, 2019), Codemotion Milan (2016), Voxxed Days Zürich (2016), OpenSouthCode (2017), Spring I/O (2011, 2012 2015), Liferay DEVCON (2018), Software Crafters Barcelona (2018). También ha dado charlas en varias comunidades locales como MadridJUG, MálagaJUG, CastellónJUG \\u0026 deCharlas.com, MilanJUG, ValenciaJUG, VigoJUG, BarcelonaJUG, comunidad hispana de JUGs, MadridJS, Hackathon Lovers… ",
+
+        "talk": {
+            "schedule": "10:00 AM",
+            "title": "Construyendo Monolitos modulares que puedan escalar a Microservicios (solo si lo necesitan)",
+            "abstract": "¿Son los microservicios un objetivo o una consecuencia?\n\nEn esta charla nos centraremos más en cómo técnicas de como DDD, CQRS o Event-Sourcing que nos permitirán diseñar nuestro monolito de forma modular, y estar preparados para escalar a microservicios facilmente (sólo si lo necesitamos).",
+            "description": "Es fácil en estos días caer en la tentación de comenzar a diseñar toda su aplicación con una arquitectura de micro servicios ... \r\nPorque, ya sabes, eso es lo que todo el mundo hace, ¿verdad? \r\n\r\nPero... ¿Estamos son los microservicios un objetivo en sí o un medio para lograr un propósito? En esta charla pensaremos en un enfoque diferente: volveremos a la base y veremos cómo siguiendo las prácticas DDD, CQRS y Event-Sourcing nos permitirá diseñar y evolucionar nuestra aplicación conmenzando por un monolito pero dotándole de la capacidad de escalar a microservicios cuando (y sólo si) lo necesitamos.",
+            "format": "Talk (40 minutes)",
+            "audience_level": "All"
+        },
+        "tags": [
+            "Arquitectura",
+			"microservicios",
+			"DDD",
+			"CQRS",
+			"Event-Sourcing"
+        ],
+        "socials": [
             {
-                "icon": "fab fa-linkedin",
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/fantpena"
+                "icon": "fab fa-twitter",
+                "name": "Twitter",
+                "link": "http://twitter.com/dgomezg"
             },
             {
                 "icon": "fab fa-github-alt",
                 "name": "GitHub",
-                "link": "https://github.com/fredpena"
-            }
-        ],
-        "status": "accepted",
-        "confirmed": true
-    },
-    {
-        "name": "Fernando Paulino",
-        "bio": "\r\nVisionary of user experience and technology. Systems and computing engineer/ MBA Student, worked wit Digital banking experience from Banco Popular Dominicano,BHD, Banreservas, Technology products specialist, Product owner / Product manager, Quality control, Requirements and user experience, from a sub banking agent, ATM, Internet banking, to mobile banking and the core. Certification of requirements with users.-SQA of projects of continuous improvement and innovation. -QA of the first Dominican financial chatbot",
-        "avatar": "img/speakers/fernando_paulino.jpg",
-        "country": "Dominican Republic",
-        "talk": {
-            "schedule": "10:00 AM",
-            "title": "The art of delivery experienceable products",
-            "abstract": "People/teams tries to develop products with  best practices, and suffers desorganitzation , i will show the easy pie way and The strategy for agile product management at developers team, soft and manage skills tips to deliver your product from 0 till release and evolutioning, keeping it scalable.",
-            "description": "A lot of people and teams try to develop products with the best practices, and suffers of desorganitzation and a lot of stress by creating a product \r\nThe strategy for agile product management at developers team, giving the best practice from scrum to manage your product from 0 till release and evolutioning.\r\n\r\nThe start path is simple to add a great plus for your product:\r\n\r\nStrategy : Agile product management for a success product.\r\n\r\nVision: Lets get a clear vision that everybody understand, practical and emotional, for you, your team and your clients.\r\n\r\nValue: The mind is the laboratory wgere products, both fake and genuine are manufactured. people grow wild weeds, other grow flourshing flowers, lets define your value.\r\n\r\nDelivering Neurological experience for users.\r\n\r\nSoft skils: to manage your team or to be a good part of one.",
-            "format": "Talk (30 minutes)",
-            "audience_level": "All"
-        },
-        "tags": [
-            "Software",
-            "agile"
-        ],
-        "socials": [
-            {
-                "icon": "fab fa-twitter",
-                "name": "Twitter",
-                "link": "http://twitter.com/Paulino"
-            },
-            {
-                "icon": "fab fa-linkedin",
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/fernando-paulino-927308132/"
+                "link": "https://github.com/dgomezg"
             }
         ],
         "status": "accepted",
         "confirmed": false
     },
     {
-        "name": "Luis Contreras",
-        "bio": "I'm a Senior Monitoring Engineer with an expertise in Monitoring solutions like (Nagios, Centreon, Icinga, Op5 and Zabbix). I have a proven experience in System / Network Administration, and developing monitoring projects, including complex integrations and developing plugins in Python, PHP and PowerShell. My experience is based in Retail, Government, Health and IT Services industry.\r\n\r\nSince 2005 I've been speaker in Opensource technologies within and outside of the country, and in 2013 I got the honor on receiving a Nagios MVP for my contribution to Nagios community.\r\n",
-        "avatar": "img/speakers/luis_contreras.png",
-        "country": "Dominican Republic",
+        "name": "Dewan Ahmed",
+		"avatar": "img/speakers/dewan_ahmed.jpg",
+		"country": "Moncton, Canada",
+		"bio": "👋🏽 Hello! I’m Dewan - a Developer Advocate at Red Hat focusing on cloud-native projects. Before starting at Red Hat, I have worked at IBM for six years as a developer, QA lead, consultant, and developer advocate. And even before that, I was a renewable energy engineer designing solar homes for off-grid parts of Bangladesh.\r\n\r\nI believe in the power of community and actively work with the local and virtual communities (OpenShift, K8s, CNCF to name a few). \r\n\r\nBesides work, I offer career coaching to students, newgrads, and professionals who are trying to transition to the software industry. When I’m not working, I spend quality time with my family and play 🎱.",
         "talk": {
-            "schedule": "10:30 AM",
-            "title": "Desaf\u00edos de Monitorear Grandes Infraestructuras",
-            "abstract": "La idea es presentar como podemos abordar de una manera simple la monitorizaci\u00f3n de grandes infraestructuras, y sobre todo aquellas infraestructuras donde se tienen servicios on-premise y en la nube.",
-            "description": "La idea es presentar como podemos abordar de una manera simple la monitorizaci\u00f3n de grandes infraestructuras, y sobre todo aquellas infraestructuras donde se tienen servicios on-premise y en la nube.",
-            "format": "Talk (30 minutes)",
-            "audience_level": "All"
+            "schedule": "10:45 AM",
+            "title": "Deploy N applications to N clusters using Argo CD ApplicationSet",
+            "abstract": "As the scaling needs grow, you have to deploy your application to more than one Kubernetes cluster. This talk covers open source tools Argo CD + ApplicationSets that allow you to manage deployments of a large number of applications, repositories, or clusters, all from a single Kubernetes resource.",
+    		"description": "As the scaling needs grow, you have to deploy your application to more than one Kubernetes cluster. How about deploying multiple applications across multiple clusters? This talk covers Argo CD + ApplicationSets that allow you to manage deployments of a large number of applications, repositories, or clusters, all from a single Kubernetes resource.\r\n\r\nStarting with a brief introduction to GitOps and Argo CD, you will learn about the challenges of having to use new manifest files every time you want to deploy to another cluster. With Argo CD's Application resource, users are limited to deploying from a single Git repository to a single cluster/namespace. In contrast, you'll learn in this talk, the ApplicationSet resource uses templates, and automated generation of template parameters, to allow you to manage many Argo CD Applications simultaneously from multiple Git repositories. The demo will feature OpenShift GitOps which bundles Argo CD, ApplicationSets and other tools, to enable teams to implement GitOps workflows for cluster configuration and application delivery. Although some knowledge about Kubernetes and GitOps will help, the demo will explain the concepts in action. ApplicationSets Generator demos will show how your applications can be deployed and managed across single/multiple clusters from one or more Git repositories.\r\n\r\nYou will leave the talk with the necessary resources and knowledge on Argo CD, ApplicationSets and OpenShift GitOps, and learn how these tools can help you manage large numbers of applications through templating and automation.",
+            "format": "Talk (40 minutes)",
+            "audience_level": "Intermediate"
         },
-        "tags": [],
+        "tags": [
+            "open source",
+            "kubernetes",
+            "argocd"
+        ],
         "socials": [
             {
                 "icon": "fab fa-twitter",
                 "name": "Twitter",
-                "link": "http://twitter.com/doluiscontreras"
+                "link": "http://twitter.com/DewanAhmed"
             },
             {
                 "icon": "fab fa-linkedin",
                 "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/luiscontrerasdo/"
+                "link": "https://www.linkedin.com/in/diahmed/"
+            }
+        ],
+        "status": "accepted",
+        "confirmed": true
+    },
+    {
+        "name": "Oscar J Rodriguez",
+		"avatar": "img/speakers/oscar_rodriguez.jpeg",
+		"country": "Unknown",
+		"bio": "+ Industrial Electronics Associate\r\n+ Telematics Engineer\r\n+ Linux Lover\r\n+ Sysadmin\r\n+ Security student\r\n+ Maker",
+        "talk": {
+            "schedule": "11:30 AM",
+            "title": "El BlockChain Explicado",
+            "abstract": "El blockchain esta por todas partes, todos hablan de como mejora la economia o como puede mejorar otras areas de nuestra vida pero muchos no desarrolladores jovenes no tienen la mas minima idea de como funciona el concepto y por donde empezar a aprenderlo, esta charla esta para ellos, sin palabreos.",
+            "description": "# El BlockChain Explicado\r\n\r\n## Ya sabemos que son importantes los blockchains\r\n\r\nTodos hemos escuchado la palabra una y otra vez y estamos concientes de que existen\r\npero la verdad muy pocos tienen una idea clara de como funciona y porque en realidad\r\nson tan importantes como parece ser, algo que a mi mismo como desarrollador se me\r\nhizo muy incómodo cuando quise investigar sobre blockchain\r\n\r\n## Que es toda esta jerga\r\n\r\nCada vez que intentas investifar que es el blockchain verás a alguien mostrarte\r\nun monton de dibujitos acompanado de palabras un poco avanzadas sobre el tema en\r\ncuestion que te dejan con más dudas que respuestas a la pregunta de que es él\r\nblockchain, por lo que en esta charla vamos a llevarte del cero absoluto.\r\n\r\n## Que voy a saber cuando termine esta charla?\r\n\r\n+ Vas a saber por qué unos dicen que es virtualmente imposible hackear un blockchain\r\npara que áreas específicas puede ser útil y para que otras en podría no serlo.\r\n + Vas a aprender donde puedes empezar a estudiar para convertirte en un blockchain\r\n developer\r\n + Vas a saber exactamente como funciona un blockchain genérico y también una idea\r\n de como funciona el más famoso blockchain de todos (bitcoin).\r\n\r\n## Como se hará la charla?\r\n\r\nEsta charla se hará alrededor de una demostración interactiva forkeada del proyecto de\r\nsofware de código libre alojado en [Ander96](https://github.com/anders94/blockchain-demo).\r\n\r\nEn este demostración se va parte por parte desde el explicar como funciona un hash\r\nhasta como funciona un ledger distribuido basado en cadenas de bloques, además de\r\nuna breve explicación del código de bitcoin y de otros cryptoproyectos explicados\r\nde forma general.",
+            "format": "Talk (40 minutes)",
+            "audience_level": "All"
+        },
+        "tags": [
+			"open source",
+			"blockchain",
+			"software development",
+			"begginer",
+			"Cloud"
+		],
+        "socials": [
+            {
+                "icon": "fab fa-twitter",
+                "name": "Twitter",
+                "link": "http://twitter.com/Black_Cloud08"
+            },
+            {
+                "icon": "fab fa-github-alt",
+                "name": "GitHub",
+                "link": "https://github.com/josuer08"
+            }
+        ],
+        "status": "accepted",
+        "confirmed": false
+    },
+    {
+        "name": "Ronald Vargas Quesada",
+		"avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/68321/yo_explicando.jpg",
+		"country": "Costa Rica",
+		"bio": "Ronald Vargas Quesada, nace en la ciudad de Cartago, Costa Rica, un 03 de setiembre de 1968. Es Oracle ACE Director del Programa Oracle ACE de Oracle Corporation y actualmente es Arquitecto de Datos de Grupo Financiero Improsa y anteriormente a esto en los últimos 5 años, laboró como Gerente de Desarrollo de Negocios en Crux Consultores y Consultor para NOVACOMP S.A. \r\nRonald tiene más de 30 años involucrado con tecnologías Oracle. \r\nDurante su carrera profesional ha laborado para Partners de Oracle como consultor en más de un centenar de proyectos para el sector público y privado en la región LAD.\r\nHa sido instructor de Oracle University y Academy desde el 2000, así como Profesor Universitario en la ULACIT. \r\nFundador de los OUG de Costa Rica 2010, Guatemala 2011, Panamá 2013, El Salvador 2014. Ronald es el responsable de introducir el OTN TOUR en la región Centroamericana.\r\nEditor y Autor del blog oracledbacr.blogspot.com desde el 2009. Ha sido expositor presencial en México, Guatemala, Honduras, Nicaragua, Panamá, Colombia, Ecuador, Chile, Perú, Argentina, Costa Rica. También ha particado en eventos virtuales a lo largo de toda la región LATAM y España.\r\nHa escrito varios artículos técnicos para Oracle Technology Network en español. Ha realizado procesos de evangelización en temas de computación cognitiva, mediante la utilización de la tecnología, tanto en charlas como en aportes a diarios nacionales como La República, Revista SUMMA y ITNow. En noviembre de 2017 fue asignado por el Programa Oracle ACE, como Oracle Cloud Advocate, por un período de 12 meses. En  abril del 2018, su perfil y experiencia, es publicado en la revista Oracle Magazine, de cobertura mundial, convirtiéndose así en el primer Costarricense y el segundo Centroamericano en formar parte de la revista en sus 30 años de existencia.\r\nhttps://www.larepublica.net/noticia/bancos-detectaran-ilicitos-mediante-computacion-cognitiva\r\nhttp://www.revistasumma.com/empresa-costarricense-crea-solucion-cognitiva-para-detectar-lavado-de-activos-y-financiamiento-del-terrorismo/\r\nhttps://www.larepublica.net/noticia/costa-rica-se-llena-de-apps-inteligentes\r\nA la fecha Ronald ha participado en varios centenares de charlas, dirigidas a Canales de Oracle, clientes, Entidades Educativas, Universidades, Eventos de actualización tecnológicas en empresas, etc; en temas tan diversos como:\r\n• Computación Cognitiva\r\n• Hackeo Ético\r\n• Integración\r\n• Alta Disponibilidad y Contingencia\r\n• Escalabilidad\r\n• Seguridad\r\n• Migración\r\n• Infraestructura\r\n• Rendimiento y Administración de Base de Datos\r\n• Inteligencia de Negocios\r\n• Respaldos y Recuperación\r\n• Capa Intermedia\r\n• Cloud Computing\r\nEn la actualidad, brinda talleres virtuales sobre temas de Oracle Cloud, Gestión de Base de Datos, Seguridad, Mejora de Rendimiento, además de ser consultor externo para varias companías en la región LATAM.",
+        "talk": {
+            "schedule": "12:15 AM",
+            "title": "Oracle Database Ethical Hacking para base de datos 19c y 21c",
+            "abstract": "Durante años hemos hablado de seguridad, tanto en la capa de la base de datos, como en la capa intermedia. Pero que sabemos de esas puertas trazeras que tiene el software. Cómo nos pueden atacar dentro de la organización sin darnos cuenta? Como puede el DBA abusar de sus privilegios.?",
+            "description": "Durante 30 años he trabajado como consultor en el área de DBA. He sido instructor en más de 200 cursos de Oracle Academy y he dado charlas en más de 12 países de LATAM y España. El tema de seguridad es una caja negra, requiere mucho tiempo de análisis y estudio y por supuesto de conocimiento. A lo largo de los años, he buscado esas exposiciones y vulnerabilidades que están poco documentadas o del todo no lo están. Mi idea es que exista conocimiento sobre ellas y como monitorear las mismas, para evitar el abuso de privilegios otorgados. Cómo lo digo en el texto de la charla: sabemos de esas puertas trazeras que tiene el motor de la base de datos?. Cómo los ataques pueden tener su origen dentro de la organización sin darnos cuenta? Como puede el DBA abusar de sus privilegios.?. Mi charla es una demo producto de las investigaciones y documentaciones realizadas sobre estos temas TABU en la seguridad de la base de datos.",
+            "format": "Talk (40 minutes)",
+            "audience_level": "All"
+        },
+		"tags": [
+			"oracle",
+            "database",
+            "19c",
+            "seguridad",
+            "ethical",
+            "hacking",
+            "nube"
+		],
+        "socials": [
+            {
+                "icon": "fab fa-twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/rovaque"
             },
             {
                 "icon": "fas fa-link",
-                "name": "Link",
-                "link": "https://maestrodelmonitoreo.blogspot.com/"
-            }
-        ],
-        "status": "accepted",
-        "confirmed": true
-    },
-    {
-        "name": "Leonardo Jimenez",
-        "bio": "Leonardo is an Industrial Engineer that fell in love with the web. \r\n\r\nHe has been developing web based solutions  this whole decade, mainly with Django.  Leo (you can call me this way) is the creator of PyCaribbean and also the organizer of Python Dominicana. The local Python Usergroup in Dominican Republic.",
-        "avatar": "img/speakers/leonardo_jimenez.jpg",
-        "country": null,
-        "talk": {
-            "schedule": "11:00 AM",
-            "title": "Siendo efectivos con el dinero: El Ciclo Financiero del Freelancer",
-            "abstract": "Esta charla es ut\u00edl para todos aquellos que tienen deseo de tener exito financiero como freelancers.\n\nEn esta charla estaremos conversando los elementos necesarias para tener exito financieramente y que pr\u00e1cticas puedes implementar para que el dinero no sea un dolor de cabeza.",
-            "description": "Te has preguntado porque algunas personas parecen siempre tener tranquilidad como freelancers?, la respuesta podr\u00eda sonar diferente a lo que escuchas. Es el manejo de sus finanzas.\r\n\r\nEn esta charla aprenderas sobre:\r\n- El ciclo financiero del freelancing.\r\n- Que estrategias de cobros y precios pueden brindarte mas flexibilidad\r\n- Como crear fondos de emergencia\r\n- Empezar en el proceso de Inversi\u00f3n",
-            "format": "Talk (30 minutes)",
-            "audience_level": "All"
-        },
-        "tags": [
-            "freelancing"
-        ],
-        "socials": [
-            {
-                "icon": "fab fa-twitter",
-                "name": "Twitter",
-                "link": "http://twitter.com/leonardoajim"
-            },
-            {
-                "icon": "fab fa-instagram",
-                "name": "Instagram",
-                "link": "https://www.instagram.com/indielancer/"
-            },
-            {
-                "icon": "fab fa-linkedin",
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/leonardoajimenez"
-            }
-        ],
-        "status": "accepted",
-        "confirmed": false
-    },
-    {
-        "name": "Juan Diego Lopez",
-        "bio": "Juan Diego L\u00f3pez, estudiante de Ingenier\u00eda de Sistemas y Computaci\u00f3n, y desarrollador de software con experiencia en desarrollo web y m\u00f3vil. Actualmente trabajo en NTI (Net Tech International). Desarollo en varios lenguajes de programaci\u00f3n como: \r\n* Java\r\n- Quarkus\r\n- Vert.x\r\n- Spring Boot\r\n* Javascript\r\n- NodeJS\r\n- React\r\n- React Native\r\n* Go\r\n* PHP \r\n- Laravel\r\n- Symfony\r\n* Entre otros...\r\n",
-        "avatar": "img/speakers/juan_diego_lopez.jpg",
-        "country": null,
-        "talk": {
-            "schedule": "11:30 AM",
-            "title": "Desarrollar aplicaciones con Quarkus ",
-            "abstract": "\u00bfEres uno de los que odias cuando haces un cambio mientras est\u00e1s desarrollando? Quarkus te hace desarrollar m\u00e1s productivo sin tener que reiniciar el servicio. En esta sesi\u00f3n se hablar\u00e1 de c\u00f3mo instalar extensiones en segundos y hacer un servicio RESTful API de JAX-RS de Java con buenas pr\u00e1cticas.",
-            "description": "Quarkus te hace desarrollar m\u00e1s productivo. Recarga el servicio en un cerrar y abrir de ojos, tambi\u00e9n instalar extensiones en segundos. Cero configuraci\u00f3n, reduce el c\u00f3digo y entre otros. Quarkus se dise\u00f1\u00f3 para trabajar con las bibliotecas y los est\u00e1ndares de Java como Eclipse MicroProfile, Apache Kafka, RESTEasy (JAX-RS), Hibernate y entre otros. El ciclo de vida de Quarkus ayuda ampliar las funciones y configurar con CDI (Contexts and Dependency Injection) es un est\u00e1ndar de inyecci\u00f3n de dependencias.",
-            "format": "Talk (30 minutes)",
-            "audience_level": "All"
-        },
-        "tags": [
-            "Java",
-            "Quarkus",
-            "Containers",
-            "Software",
-            "Open source",
-            "GraalVM"
-        ],
-        "socials": [
-            {
-                "icon": "fab fa-twitter",
-                "name": "Twitter",
-                "link": "https://twitter.com/_juandiii"
-            },
-            {
-                "icon": "fab fa-instagram",
                 "name": "Instagram",
                 "link": "https://www.instagram.com/juandiii_/"
             },
-            {
-                "icon": "fab fa-linkedin",
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/juan-diego-lopez-5066881ab/"
-            },
-            {
-                "icon": "fab fa-github-alt",
-                "name": "GitHub",
-                "link": "https://github.com/juandiii"
-            }
         ],
         "status": "accepted",
         "confirmed": false
     },
     {
-        "name": "Carlos Est\u00e9vez",
-        "bio": "More than 14 years of experience in SAP working with solution like SAP Retail, MM, SD, SAP POSDM (PIPE) and SAP Forecasting and Replenishment (F&R).\r\n\r\nI have participated in different projects as a SAP Retail, POSDM and F&R consultant.\r\nDuring my projects I\u2019ve been responsible of different process like:\r\n\r\n-Retail and Sales Operations\r\n-Point of Sales process and integration\r\n-Point of Sales analysis\r\n-Planning Operations\r\n-Procurement Operation\r\n-Master Data\r\nAnd others.\r\n\r\nMost of my projects are completely implementation so I have worked in all SAP phases working with the customer closely and elaborating the different documents in each phase of the project like:\r\n\r\n-AS-IS Documents\r\n-To-Be Documents or Business BluePrint\r\n-Development Specification documents\r\n-Testing documents\r\n-and Others.\r\n\r\n\u201cPersonal Quote\u201d\r\n\r\nWhen I talk to my customer I always tell them that the process which is not measured can\u2019t be improved, so I believe that every process can be improved and simplified and I always try to offer my services as a Senior Consultant to get the Costumers to achieve this goal.",
-        "avatar": "img/speakers/carlos_estevez.png",
-        "country": "Mexico",
+        "name": "Raldy De Oleo",
+		"avatar": "https://secure.gravatar.com/avatar/6477b13892d8411e464c947a258b9ff1?s=500",
+		"country": "Unknown",
+		"bio": "Im a software developer with more than 5 years of experience working for big local companies developing C# enterprise solutions. I studied at UASD, Santiago de los caballeros, ITLA, and a Videogame, AR/VR Certification at t-ecogroup.",
         "talk": {
-            "schedule": "12:00 M",
-            "title": "Desarrollo de aplicaciones empresariales con SAPUI5",
-            "abstract": "El objetivo de la sesion es introducir la nueva plataforma de desarrollo WEB de SAP llamado SAPUi5.\nLa misma permitira a cualquier persona o programador que conozca los est\u00e1ndares de desarrollo WEB de la actualidad iniciar en el desarrollo de aplicaciones dentro de SAP",
-            "description": "SAP es una de las empresa de desarrollo de software de negocio mas grande del mundo.  Desde sus inicios SAP desarrollo un lenguaje propietario el cual solo era posible usar dentro de un ambiente de SAP. En la ultima d\u00e9cada la empresa cambio el paradigma y paso a estandarizar el desarrollo de aplicaciones usando est\u00e1ndares del mercado como: HTML5, Javascript, JQuery y dem\u00e1s, creando una nueva plataforma llamada SAPUI5, la cual permite a cualquier persona o programador que conozca los est\u00e1ndares de desarrollo WEB de la actualidad iniciar en el desarrollo de aplicaciones dentro de SAP.\r\nEl objetivo de la sesion es incentivar a mas profesionales a la programacion empresarial de negocio en las diferentes tipos de industria que usan SAP \r\nusando la plataforma nueva\r\n",
-            "format": "Talk (30 minutes)",
+            "schedule": "1:00 PM",
+            "title": "Videogame development with Unity, C# and Blender",
+            "abstract": "Learn quickly how to get into videogames development getting advantage of your c# skills and the power of Unity plus 3D Modeling with Blender. Fast building of an multiplatform mobil, AR/VR or pc videogame or application.",
+            "description": "Learn quickly how to get into videogames development getting advantage of your c# skills and the power of Unity plus 3D Modeling with Blender. Fast building of an multiplatform mobil, AR/VR or pc videogame or application.",
+            "format": "Talk (40 minutes)",
             "audience_level": "All"
         },
-        "tags": [
-            "Javascrip",
-            "SAP",
-            "HTML5",
-            "Jquery"
-        ],
+		"tags": [
+			"c#",
+			"Unity",
+			"Blender",
+			"Videogames",
+			"AR",
+			"VR"
+		],
         "socials": [
+            {
+                "icon": "fab fa-twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/printek_sa"
+            },
             {
                 "icon": "fas fa-link",
                 "name": "Link",
-                "link": "http://www.lspconsulting.com.mx"
+                "link": "http://sistekrd.com/web/sistek"
             }
         ],
         "status": "accepted",
         "confirmed": false
     },
     {
-        "name": "César A. Vargas Pérez",
-        "bio": "Hola! Mi nombre César Vargas, Ingeniero de Sistemas y Computación,  ex-alumno de la PUCMM-STI. Mi curiosiodad por el desarrollo de Software empezó a los 16 años, cuand programé un microcontrolador usando Assembly (shout-out to IPISA!!!) para manejar los estados de un semaforo inteligente. Desde el 2018 estoy trabajando como Ingeniero de Software en Resonance, un StartUp con HeadQuarters en NYC, USA y centros de manufactura aquí, en Santiago de los Caballeros. Cloud-computing, Big Data, Flows Automationsm y hacer crecer mi equipo es mi día a día. ",
-        "avatar": "img/speakers/cesar_vargas.jpg",
-        "country": null,
+		"name": "Fernando Paulino",
+        "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/50211/pp.jpeg",
+		"country": "R.D.",
+		"bio": "\r\nVisionary of user experience and technology. Digital banking experience, Technology products specialist, Product owner / Product manager, Quality control, Requirements and user experience, from a sub banking agent, ATM, Internet banking, to mobile banking and the core. Certification of requirements with users.-SQA of projects of continuous improvement and innovation. -QA of the first Dominican financial chatbot",
+
         "talk": {
-            "schedule": "12:30 PM",
-            "title": "Revolutionizing a 3-Trillion-Dollar-Industry: My journey working in a Tech Startup in STI",
-            "abstract": "I want to share my experience as a Software Engineer at Resonance, a USA Startup with a manufacturing facility in Santiago. I will show you how we develop apps using a No-Code approach, and then what we do to migrate the first iteration of the app to use technologies like Python, React, GraphQL, etc",
-            "description": "Join us in this desconference to learn how at Resonance we are revolutionizing a $3 trillion global industry. The fashion industry has not changed in more than 40 years, it is one of the most polluting industries, and nobody seems to care.\r\n\r\nBy using a learning framework, Resonance is changing the game by providing a creation-driven platform (ONE) that allows creators and brands worldwide to Create, Sell and Make (in that order!) elevated, sustainable and beautiful fashion - reducing the manufacturing time from 9 months to just 6 days. \r\n\r\nIn this presentation, we will be showcasing how we are making all of this!  From how Flow Engineers can create their own app using a No-Code approach to how we do (as Software Engineer) to integrate the No-Code app to our platform create.ONE, using technologies like Python, React, GraphQL, AWS, and methodologies like Agile.\r\n\r\nIf you want to learn more about how you can get a better time to value and time to product, I will share my learnings to help you in your projects,  so please come to learn and experience how we are Doing Something Really F* Big, and changing the whole WORLD from Santiago de los Caballeros.",
-            "format": "Talk (30 minutes)",
+            "schedule": "1:45 PM",
+            "title": "De proyecto a producto",
+            "abstract": "Llevar a comprender que un proyecto no solo termina siendo un entregable constante, sino que este se convierte en un entregable variable abierto a nuevos usuarios y experiencias multi-niveles, segun el usuario que lo utiliza, todos como tech advocates responsables de la experiencia.",
+            "description": "En esta charla se tiene como objetivo conocer los siguientes puntos sobre un APP desde sus inicios:\r\n\r\n1-Fases y evolucion de una idea a proyecto con la finalidad de convertirse en producto.\r\n2- Compromiso de calidad y valor en cada entregable.\r\n3- Comprendiendo la importancia de la experiencia de usuario.\r\n",
+            "format": "Talk (40 minutes)",
             "audience_level": "All"
         },
-        "tags": [
-            "Start-Up",
-            "Software",
-            "Python",
-            "AWS",
-            "Agile"
+		"tags": [
+			"Products",
+			"APPS",
+			"UX"
+		],
+        "socials": [
+            {
+                "icon": "fab fa-twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/Paulino"
+            },
         ],
-        "socials": [],
         "status": "waitlist",
         "confirmed": false,
     },
     {
-        "name": "Mitra Mejia",
-        "bio": "Mitra es un ingeniero de software con alrededor de 7 a\u00f1os de experiencia. Comenz\u00f3 a desarrollar software e-commerce. Mientras trabajaba a medio tiempo, se fue desarrollando como freelancer. Unos a\u00f1os m\u00e1s tarde, estaba consiguiendo m\u00e1s negocio como freelancer que como empleado.\r\n\r\nCuando lleg\u00f3 el momento, se mud\u00f3 de Rep\u00fablica Dominicana a Nueva York. Dos semanas despu\u00e9s de aterrizar en Nueva York, fue contratado por la consultoria de software [Wunderkind](https://wunderkind.nyc/), donde implement\u00f3 aplicaciones React / React-Native. Actualmente trabaja en [Petal](https://www.petalcard.com/), una de las mejores startups de fintech en Nueva York.",
-        "avatar": "img/speakers/mitra_mejia.jpg",
-        "country": null,
-        "talk": {
-            "schedule": "1:00 PM",
-            "title": "Hunting software engineering jobs",
-            "abstract": "La pandemia del COVID-19 le dio duro a mi entonces empleador, por ello comenc\u00e9 a buscar un cambio. Luego de docenas de contactos y aplicaciones a diferentes compa\u00f1\u00edas de USA, logre salir adelante. En esta charla describir\u00e9 las estrategias que me han funcionado para conseguir buenas ofertas en USA.",
-            "description": "Conseguir trabajo como ingeniero de software puede ser complicado. En los ultimos 4 meses he aplicado a docenas de compa\u00f1ias, conseguido multiples entrevistas y ofertas. Para lograr esto tuve que refinar estrategias y enfrentar situaciones inesperadas. Hablar\u00e9 sobre el proceso completo, desde buscar potenciales compa\u00f1ias, entrevistarse, como evaluar una oferta, como cambiar de empresa, como renunciar dignamente, entre otros temas.",
-            "format": "Talk (30 minutes)",
-            "audience_level": "All"
-        },
-        "tags": [
-            "Software",
-            "jobs",
-            "people"
-        ],
-        "socials": [
-            {
-                "icon": "fab fa-twitter",
-                "name": "Twitter",
-                "link": "https://twitter.com/mitramejia"
-            },
-            {
-                "icon": "fab fa-instagram",
-                "name": "Instagram",
-                "link": "https://www.instagram.com/mitramejia/"
-            },
-            {
-                "icon": "fab fa-linkedin",
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/mitramejía"
-            },
-            {
-                "icon": "fab fa-github-alt",
-                "name": "GitHub",
-                "link": "https://github.com/mitramejia"
-            },
-            {
-                "icon": "fas fa-link",
-                "name": "Link",
-                "link": "https://mitramejia.com/"
-            }
-        ],
-        "status": "accepted",
-        "confirmed": true
-    },
-    {
-        "name": "Jos\u00e9 Mart\u00ednez y Juan \u00C1ngel",
-        "bio": "Dominican software engineering student. Web developer and data science enthusiast.",
-        "avatar": "img/speakers/jmartinez_jangel.jpeg",
-        "country": "Santiago, República Dominicana",
-        "talk": {
-            "schedule": "1:30 PM",
-            "title": " \u00a1Facilita tus dashboards con Metabase!",
-            "abstract": "\u00a1Realizar Dashboards con Metabase, para la toma de decisiones, nunca ha sido tan f\u00e1cil! Utilizarlo es tan f\u00e1cil como correr el .jar o un contenedor, conectarlo a la fuente de datos de tu preferencia y comenzar a configurar tu Dashboard con gr\u00e1ficas vistosas y las consultas de tu preferencia.",
-            "description": "Desde los inicios de la computaci\u00f3n, las empresas se han enfocado en poder utilizar los datos que poseen para, luego de cierto an\u00e1lisis, poder tomar decisiones. Esto puede llegar a ser complejo debido a como est\u00e1n distribuidos y organizados los datos. Aqu\u00ed es donde entra Metabase, que nos facilita la creaci\u00f3n de las m\u00e9tricas utilizadas para la toma de decisiones, al permitirnos utilizar por su interfaz su poderoso motor de consultas y visualizar los resultados de las mismas en Dashboards vistosos y altamente configurables.\r\nTambien permite preconfigurar varios dashboard, filtrarlos y manejarlos por regi\u00f3n. As\u00ed como disponen de una plataforma en la nube por si no quieres tenerla en tus servidores propios.",
-            "format": "Talk (30 minutes)",
-            "audience_level": "Intermediate"
-        },
-        "tags": [
-            "Business Ingelligence",
-            "Dimensional Modeling",
-            "Data Warehousing",
-            "Metabase",
-            "Automation",
-            "Web Development"
-        ],
-        "socials": [
-            {
-                "icon": "fab fa-instagram",
-                "name": "Instagram",
-                "link": "https://www.instagram.com/josemartinezgs/"
-            },
-            {
-                "icon": "fab fa-linkedin",
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/jose-manuel-martinez-garcia-661753173/"
-            },
-            {
-                "icon": "fab fa-github-alt",
-                "name": "GitHub",
-                "link": "https://github.com/josemartinezg"
-            }
-        ],
-        "status": "accepted",
-        "confirmed": true
-    },
-    {
-        "name": "Gregory Pilar",
-        "bio": "",
-        "avatar": "img/speakers/gregory_pilar.jpg",
-        "country": "Santo Domingo, RD",
-        "talk": {
-            "schedule": "2:00 PM",
-            "title": "Serverless Azure: Event-based Microservices - beyond just Functions",
-            "abstract": "\u00bfQu\u00e9? \u00bfSin servidores? Bueno, s\u00ed. \nEl enfoque Serverless  (sin servidor) para crear microservicios promete ofrecer una barrera de entrada baja, tanto para iniciar como para cumplir un objetivo espec\u00edfico.",
-            "description": "En esta sesi\u00f3n se mostrar\u00e1 una aplicaci\u00f3n serverless end-to-end con Azure y .NET Core mediante un escenario realista de un cliente\r\nBasado en patrones de dise\u00f1o probados, se puede crear escenarios de aplicaciones simples y complejas con Azure Functions, Azure Event Grid, Azure Cosmos DB, Azure Storage y dem\u00e1s servicios disponibles. Localmente y en la nube. \r\nUno de los conceptos clave centrales aqu\u00ed es pensar en eventos para desencadenar acciones como enviar mensajes, recuperar datos o enviar informaci\u00f3n a destinos.\r\n",
-            "format": "Talk (30 minutes)",
-            "audience_level": "All"
-        },
-        "tags": [
-            "Azure",
-            "Serverless",
-            "NET Core",
-            "Azure Event Grid"
-        ],
-        "socials": [
-            {
-                "icon": "fab fa-twitter",
-                "name": "Twitter",
-                "link": "http://twitter.com/gregorypilar"
-            },
-            {
-                "icon": "fab fa-instagram",
-                "name": "Instagram",
-                "link": "https://www.instagram.com/gregorypilar/"
-            },
-            {
-                "icon": "fab fa-linkedin",
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/gregorypilar/"
-            },
-            {
-                "icon": "fab fa-github-alt",
-                "name": "GitHub",
-                "link": "https://github.com/gregorypilar"
-            }
-        ],
-        "status": "accepted",
-        "confirmed": true
-    },
-    {
-        "name": "Alejandro Mercado",
-        "bio": "Experienced Web & Mobile Developer with a demonstrated history of working in the information technology and services industry. My current stack is TS, JS, Angular, Svelte, NativeScript, and other web-related technologies, adding DevOps functions to my belt.\r\nI have been involved in business strategy roles for software companies like SAP, Progress, Unity, Appcelerator, Adobe, MongoDB, and LPI.\r\nGitLab Hero, Auth0 Ambassador, Git Kraken Ambassador, GitHub Campus Advisor, Progress NativeScript Expert.\r\nTechnical writer and international speaker.\r\n",
-        "avatar": "img/speakers/alejandro_mercado.jpg",
-        "country": "Mexico",
+        "name": "Marco Schulz",
+		"avatar": "https://secure.gravatar.com/avatar/c59c6666e76977dde33948515fdb3a90?s=500",
+		"country": "Mexico",
+		"bio": "Marco Schulz studied at HS Merseburg, Germany, computer science and holds an engineers degree in software engineering. He tweets as @ElmarDott regularly about several technical topics. The main topics in his field of work are Build and Configuration Management, Software Architecture and Release Management. About more than 15 years he is working in different large Web Application projects all over the world. He is an independent consultant / trainer. To share his knowledge he gives talks on conferences, if he is not writing on a new article about software engineering.",
         "talk": {
             "schedule": "2:30 PM",
-            "title": "Should I build or should I not?  JavaScript DevOps.",
-            "abstract": "As JavaScript developers we can usually think that we have nothing  to do with the infrastructure or operations, wrong. Your code your responsibility.\nIn this talk we are going to see how a traditional web developer can assume DevOps functions avoiding some common mistakes or the well know burn out.",
-            "description": "The term DevOps is  everywhere.\r\nBut is not a job description, DevOps is a set of practices that combines software development (Dev) and information-technology operations (Ops) which aims to shorten the systems development life cycle and provide continuous delivery and integration with high software quality. \r\n\r\nAs JavaScript Devs (front, back or full stack)  we can usually think that we have nothing  to do with the infrastructure or operations, wrong. Your code your responsibility.\r\nAs a matter of fact we are talking more and more about the tools, processes, responsibilities and definitions of the new fancy Web Operations role (WebOps),  which refers to a domain of expertise within IT systems management that involves the deployment, operation, maintenance, tuning, and repair of web-based applications and systems. \r\nWith the rise of web technologies since mid-1995, specialists have emerged that understand the complexities of running a web application. \r\nHey! Maybe you are  thinking, It's simply too much. \r\nIn this talk we are going to see how a traditional web developer can assume DevOps functions avoiding some common mistakes or the well know burn out. \r\n\r\nI'll show how to deliver into production a web based app, fast & furious. Showing some alternatives and Node JS based tools. Finally I would like to show how Gitlab can contribute to make you life easier.  Lot of fun and learning guarantee.\r\n",
-            "format": "Talk (30 minutes)",
-            "audience_level": "Intermediate"
-        },
-        "tags": [
-            "JavaScript",
-            "Ops",
-            "GitLab"
-        ],
-        "socials": [
-            {
-                "icon": "fab fa-twitter",
-                "name": "Twitter",
-                "link": "http://twitter.com/alexmarket"
-            },
-            {
-                "icon": "fab fa-linkedin",
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/alexmarket/"
-            },
-            {
-                "icon": "fab fa-medium",
-                "name": "Medium",
-                "link": "https://medium.com/@alexmarket"
-            }
-        ],
-        "status": "accepted",
-        "confirmed": false
-    },
-    {
-        "name": "Luis Matos",
-        "bio": "Luis Matos, a systems engineer, specializes in software development. Partner and technological projects Leader in Malla Agency; Company dedicated to the process automation.\r\n\r\nHe began his career and gained experience in the labor market through software development, collaborating on numerous projects for various companies with a national and international presence.\r\n\r\nLover of mobility and mobile development, an area where today he is known for his collaborations through among others that he has provided to different communities. In the same way, he is a member, founder, and active collaborator of different technology communities.\r\n\r\nPassionate about disruptive technologies, a movement that has led him to graduate from Blockchain Executive at the EOI Business School in Madrid, Spain.\r\n\r\nHighlight that it has been his skills in areas of design, marketing, and business that have differentiated and promoted his professional career.",
-        "avatar": "img/speakers/luis_matos.png",
-        "country": "Dominican Republic",
-        "talk": {
-            "schedule": "3:00 PM",
-            "title": "Posicionando nuestras aplicaciones en el mercado",
-            "abstract": "Hoy en dia mas que nunca se estan lanzando muchos proyectos y aplicaciones en un mercado que esta evolucionando muy rapido y ante un mercado tan competitivo tener las herramientas y habilidades correctas es esencial. Es hora de pasar al siguiente nivel. \u00bfEst\u00e1s listo?",
-            "description": "### El siguiente nivel \r\n\r\nHoy estamos viendo c\u00f3mo se estan lanzando muchos proyectos y aplicaciones en un mercado tan cambiante y competitivo. Tener las herramientas y habilidades correctas es esencial para poder competir. Es hora de posicionar tus aplicaciones con las mejores practicas para que puedas sacar el mayor provecho a los mas minimos detalles. \r\n\r\n\u00bfComo lo haremos? Con ASO. Aso es para las aplicaciones moviles lo que es el SEO para las web. Es la optimizacion de la visibilidad de tus aplicaciones en las tiendas de aplicaciones como son Google Play y Apple App Store. \r\n\r\n> \u00a1Ahora es el momento de pasar al siguiente nivel!",
-            "format": "Talk (30 minutes)",
+            "title": "API4Future - A journey how to create a stable API",
+	    	"abstract": "API Changes always are very risky activities and need a good planning to not crash a project. Because this could cost a lot of adjustments and work for API consumers. In this talk I will share my experience how to prevent common problems designing APIs.",
+		    "description": "By experience, enterprise applications have a long lifetime period. This is one oft the reasons why we need to pay a lot of attention for maintenance. But how we are able to avoid chaos in the project? With some Code Examples in Java I will demonstrate how a stable API get developed. Some questions I will answer in this talk:\r\n• Quality and Maintenance \r\n• Architecture \\u0026 Design Pattern for APIs \r\n• API Documentation \\u0026 Versioning",
+            "format": "Talk (40 minutes)",
             "audience_level": "All"
         },
         "tags": [
-            "mobile apps",
-            "aso",
-            "flutter",
-            "xamarin",
-            "react native",
-            "seo",
-            "ionic",
-            "aplicaciones moviles"
-        ],
+			"Java",
+			"API",
+			"Design Pattern",
+			"Architecture",
+			"Documentation"
+		],
         "socials": [
             {
                 "icon": "fab fa-twitter",
                 "name": "Twitter",
-                "link": "http://twitter.com/luismatosluna"
-            },
-            {
-                "icon": "fab fa-instagram",
-                "name": "Instagram",
-                "link": "https://www.instagram.com/luismatosluna/"
-            },
-            {
-                "icon": "fab fa-linkedin",
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/luismatosluna"
-            },
-            {
-                "icon": "fab fa-youtube",
-                "name": "Youtube",
-                "link": "https://www.youtube.com/c/luismatosluna"
+                "link": "https://twitter.com/ElmarDott"
             },
             {
                 "icon": "fas fa-link",
                 "name": "Link",
-                "link": "https://luismts.com/"
+                "link": "https://elmar-dott.com",
             }
         ],
-        "status": "accepted",
-        "confirmed": false
-    },
-    {
-        "name": "Hector Ventura Reyes",
-        "bio": "Hola, \r\n\r\nSoy Hector Ventura, ingeniero en sistemas con m\u00e1s de 8 de experiencias en arquitectura y desarrollo de aplicaciones. Actualmente trabajo para GreenLink Networks una empresa que reside en EEUU y que ofrece servicios de VoIP. Fu\u00ed profesor en Administraci\u00f3n de Sistemas Linux en la Fundaci\u00f3n C\u00f3digo Libre Dominicana por 2 a\u00f1os (2008-2010)  y profesor en de programaci\u00f3n en el ITLA desde 2017 hasta 2020.",
-        "avatar": "img/speakers/hector_ventura.jpg",
-        "country": null,
-        "talk": {
-            "schedule": "3:30 PM",
-            "title": "Ansible, La m\u00e1s simple herramienta de automatizaci\u00f3n",
-            "abstract": "Desplegar applicaciones en un gran numero de servidores y acceder a cada uno de ellos y repetir la misma oraci\u00f3n es un tarea ardua... Ansible entra en la escena y nos ayudara hacer despliegue, configuraci\u00f3n, provisioning y manejo de sistemas e infraestructura.",
-            "description": "",
-            "format": "Talk (30 minutes)",
-            "audience_level": "All"
-        },
-        "tags": [
-            "Ansible",
-            "deploy",
-            "configure",
-            "manage",
-            "tool"
-        ],
-        "socials": [
-            {
-                "icon": "fab fa-twitter",
-                "name": "Twitter",
-                "link": "http://twitter.com/hectorvent"
-            },
-            {
-                "icon": "fab fa-linkedin",
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/hectorvent/"
-            },
-            {
-                "icon": "fab fa-github-alt",
-                "name": "GitHub",
-                "link": "https://github.com/hectorvent"
-            }
-        ],
-        "status": "accepted",
-        "confirmed": false
-    },
-    {
-        "name": "Eury Perez",
-        "bio": "I am an Android developer passionate of building exciting things. Software development has been my day to day for the last 8+ years. I work for X-Team as a Senior Android Developer. I also 've got experience with iOS development using Swift.\r\n\r\nI enjoy teaching programming to young people, I have experience teaching in two of the most prestigious schools in Santo Domingo (Carol Morgan School and Conexus). I also train IT teams of big companies in Santo Domingo.",
-        "avatar": "img/speakers/eury_perez.png",
-        "country": null,
-        "talk": {
-            "schedule": "4:00 PM",
-            "title": "Getting Started with Kotlin Multiplatform Mobile (KMM)",
-            "abstract": "Nowadays we have multiple ways of building apps that shares most of the code and compiles for both platforms. The newest similar technology is Kotlin Multiplatform Mobile. It was announced on Aug 31st (Alpha version). Do you want to know more before it explodes? Then don't miss this talk!",
-            "description": "Mobile development has found modern ways of building apps sharing most of the code and compiling for both platforms. The newest technology to accomplish that is KMM (Kotlin Multiplatform Mobile). It was announced on August 31st and it is in an alpha stage. Do you want to know how to use it before it explodes? Then don't miss this talk!\r\n\r\nKotlin is a modern language centered in the functional paradigm that has been widely adopted by the Android community as a substitution of Java. Also is taking place as a backend language with technologies like ktor. Let's learn the last usage of it with KMM.",
-            "format": "Talk (30 minutes)",
-            "audience_level": "Intermediate"
-        },
-        "tags": [
-            "android",
-            "ios",
-            "kmm",
-            "kotlin",
-            "multiplatform",
-            "software"
-        ],
-        "socials": [
-            {
-                "icon": "fab fa-twitter",
-                "name": "Twitter",
-                "link": "http://twitter.com/_euryperez"
-            },
-            {
-                "icon": "fab fa-linkedin",
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/euryperez/"
-            },
-            {
-                "icon": "fab fa-medium",
-                "name": "Medium",
-                "link": "https://medium.com/@euryperez"
-            },
-            {
-                "icon": "fas fa-link",
-                "name": "Link",
-                "link": "https://euryperez.dev"
-            }
-        ],
-        "status": "accepted",
-        "confirmed": true
-    },
-    {
-        "name": "Emilio Ferreyra",
-        "bio": "Soy Emilio Ferreyra, ingeniero en Software,  con más de 15 años de experiencia en el sector tecnológico. Amante de GNU/Linux y el software libre. Ciclista de montaña de ocasión. Autodidacta por vocación. Creo que Python rockea y que puedes extender tu mente con Django.",
-        "avatar": "img/speakers/emilio_ferreyra.png",
-        "country": "Dominican Republic",
-        "talk": {
-            "schedule": "4:30 PM",
-            "title": "Explorando Jupyter Notebook",
-            "abstract": "El objetivo de esta desconferencia es dar a conocer las virtudes de Jupyter Notebook a la hora de desarrollar y documentar software, tales como crear y compartir documentos que contienen código vivo, excelente para demostraciones, documentación, pruebas de conceptos y la creación de prototipos y por supuesto a nivel educativo.",
-            "description": "Explicaremos las principales características que hacen del proyecto Jupyter una solución a tomar en cuenta para optimizar el flujo de trabajo en el desarrollo y documentación de software, independientemente del lenguaje de programación utilizado, puesto que soporta múltiples lenguajes tales como Java, C#, Ruby, R, Python, entre otros.",
-            "format": "Talk (30 minutes)",
-            "audience_level": "All"
-        },
-        "tags": [
-            "python",
-            "opensource",
-            "education",
-            "development",
-            "django"
-        ],
-        "socials": [],
         "status": "accepted",
         "confirmed": true
     }
