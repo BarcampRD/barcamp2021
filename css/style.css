@@ -10924,6 +10924,38 @@ h5 {
   padding-top: 144px;
 }
 
+#codigo {
+  padding-top: 144px;
+  margin-bottom: 100px;
+}
+
+.details h2 {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section-header::before {
+  background-image: initial;
+  background-color: rgb(182, 6, 38);
+}
+.section-header {
+  margin-bottom: 60px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.section-header::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 5px;
+  background: #f82249;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+
 @media (max-width: 991.98px) {
   #inicio {
     padding-top: 120px;
