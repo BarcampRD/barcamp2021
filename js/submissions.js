@@ -272,5 +272,46 @@ const submissions = [
         ],
         "status": "accepted",
         "confirmed": true
+    },
+    {
+        "name": "Jonathan Sandoval Ferreira",
+		"avatar": "img/speakers/jonathan_sandoval.jpg",
+		"country": "R.D.",
+        "bio": "Hi, I’m Jonathan. I am a student living in the Dominican Republic. I am a fan of technology, web development and programming. I really like Chess, in my spare time I usually do a bit of pentesting and auditions of software in creation.I am a writer of articles on ethical hacking and Blue Team. I recognize myself as a person who likes to help others at all costs, because I always have in mind “That if I could go far, why not help others to reach the same way” at no cost.\r\n\r\nI really like to encourage critical and concise thinking in technology areas. In 2016 I was an outstanding student in INFOTEP studying the professional technician in computer science. When I decided to focus on the area of ​​computer security, I had many challenges to go through because we were in a time when security was very fashionable and because the professionals in the area were very qualified-I decided to go to the limit, and despite seeing how far I've come I'm still fighting for that limit of knowledge. I am currently studying computer security technology at the Technological Institute of the Americas (ITLA).\r\n\r\nFounder of the student communities at the Instituto Tecnológico de las Americas and Security Engineer Intern at Microsoft.\r\n\r\nInstagram: https://www.instagram.com/jonathansandoval__/\r\nGithub: https://github.com/Jonathan20021\r\nComunidades Fundadas: \r\n1. https://csitla.com\r\n2. https://sdcitla.com\r\n3. https://incitla.com\r\n4. https://www.instagram.com/mt_itla/ \r\n5. https://gdsc.community.dev/instituto-tecnologico-de-las-americas/",
+        "talk": {
+            "schedule": "3:15 PM",
+            "format": "Talk (40 minutes)",
+            "title": "Bad Guys Never Sleep",
+            "abstract": "Durante esta charla utilizaré mi sombrero negro para hacer una serie de ataques a infraestructuras empresariales, mostrar como un hacker puede robar tu información con un simple post en una red social (espérate no solo tu información) también como puede llegar a vulnerar la empresa en que trabajas.",
+            "description": "Durante esta charla utilizaré mi sombrero negro para hacer una serie de ataques a infraestructuras empresariales, mostrar como un hacker puede robar tu información con un simple post en una red social (espérate no solo tu información) también como puede llegar a vulnerar la empresa en que trabajas. Nos enfocaremos en la creación de un perfil de Hacker a la hora de analizar a una persona utilizando técnicas de OSINT avanzadas, de igual forma daremos una mirada a cómo opera un atacante y cómo un analista de seguridad puede identificarlo.",
+            "audience_level": "All"
+        },
+        "tags": [
+            "open source",
+            "Docker",
+            "Security",
+            "Hack",
+            "Pentesting",
+            "python"
+        ],
+        "socials": [
+            {
+                "icon": "fab fa-twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/masterjsf"
+            },
+            {
+                "icon": "fas fa-link",
+                "name": "Link",
+                "link": "http://sandovalsecurity.xyz",
+            },
+            {
+                "icon": "fab fa-github-alt",
+                "name": "GitHub",
+                "link": "https://github.com/Jonathan2002"
+            }
+        ],
+        "status": "accepted",
+        "confirmed": true
     }
 ];
