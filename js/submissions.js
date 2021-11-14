@@ -313,5 +313,105 @@ const submissions = [
         ],
         "status": "accepted",
         "confirmed": true
-    }
+    },
+    {
+        "name": "Joel Peña",
+        "email": "joelosiris11@gmail.com",
+        "avatar": "img/speakers/joel_pena.jpg",
+        "location": "R.D.",
+        "bio": " Coordinador del Departamento de desarrollo de aplicaciones en Realidad Virtual y Aumentada del Parque Cibernetico de Santo Domingo\r\n* Desarrollador de estrategias nacionales para la Academia de Desarrollo de Realidad Virtual y Aumentada de PCSD.\r\n* Desarrollador de aplicaciones moviles en VR y AR para el sector Educativo y Comercial.\r\n* Gestor de profesionales en todo el pais de modelado 3D, programadores y equipos de desarrollo de simulaciones en VR y AR.\r\n* Creador de programas de formación en RV y RA\r\n* Desarrollo del programa Train the Trainer\r\n* Supervisión y tutoría de proyectos VR\\u0026AR=\r\n* Cooperación en proyectos financiados por la ONG PLAN INTERNACIONAL con socios académicos y comerciales\r\n* Desarrollador de contenido interactivo 3D (# Unity3D, #EON, Blender, 3ds Max)\r\n* Experiencia en configuración de sistemas de proyección inmersiva (3D estereoscópico e interactivo) - Soluciones de Realidad Virtual y Aumentada en combinación con visualización de productos y procesos.\r\n* Desarrollo de aplicaciones móviles para #Android y #iOS. Enfoque en aplicaciones 3D y desarrollo innovador de hardware / software.\r\n* Altas habilidades técnicas incl. desarrollo de aplicaciones usando C #, JavaScript, Visual Basic, Java, PHP, MySQL, HTML con CSS3\r\n* Amplia experiencia en el uso de CAD\r\n* Habilidades en redes informáticas y gestión de soluciones basadas en web.",
+        "talk": {
+            "schedule": "4:00 PM",
+            "format": "Talk (40 minutes)",
+            "title": "Desarrollo de aplicaciones en Realidad virtual y aumentada ",
+            "abstract": "La charla consistira en mostrar a la audiencia como está la escena de desarrollo de aplicaciones estudiar virtual y aumentada tanto en RD, como en Santiago, qué tipo de proyectos hasta el momento se han realizado y qué negocios están incursionando en añadir este tipo de experiencias a sus productos",
+            "description": "Charla para conocer cómo es el desarrollo de aplicaciones de realidad virtual y aumentada en República Dominicana, proyectos que se han implementado, proyectos a implementar, y el escenario de desarrollo de este tipo de aplicaciones en la ciudad de Santiago.\r\n",
+            "notes": "\r\nRequisitos técnicos ninguno\r\nSoy el actual \r\ndecano del tecnólogo de desarrollo de simulaciones interactivas y videojuegos en el Instituto tecnológico de las Américas\r\nSoy el actual coordinador de desarrollo de aplicaciones  en realidad virtual y aumentada para T-ecoGroup y la Aurora",
+            "audience_level": "All",
+        },
+        "tags": [
+            "virtual reality",
+            "augmented reality",
+            "software development",
+            "app development"
+        ],
+        "socials": [
+            {
+                "icon": "fab fa-twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/esjoelpena"
+            },
+            {
+                "icon": "fas fa-link",
+                "name": "Link",
+                "link": "http://www.sanjeronimostudio.com",
+            },
+            {
+                "icon": "fab fa-instagram",
+                "name": "Instagram",
+                "link": "https://instagram.com/esjoelpena"
+            }
+        ],
+        "status": "accepted",
+        "confirmed": true
+    },
+    {
+        "name": "Marilenny Soriano",
+        "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/51934/b3264e5c-f9a9-4131-a33a-99c451519dbf.jpg",
+        "location": "Santo Domingo, República Dominicana",
+        "bio": "Soy tecno-socióloga y me dedico a estudiar el impacto de los productos digitales en nuestra sociedad. A mi corta edad, he tenido la oportunidad de trabajar para instituciones gubernamentales de mi país como la primera universidad de américa: Universidad Autónoma de Santo Domingo, también he participado y colaborado en proyectos con la NASA y he contribuido a otras marcas como Huawei, Microsoft y servicios digitales orientados a la investigación de usuarios como lo son User Interviews y UXPressia. Más allá de eso, impartí el primer curso presencial de UX/UI and User Research en mi país capacitando a más de 20 jóvenes en el área y teniendo como resultado, ser una de las pioneras del user research en mi nación. Por mis colegas y aprendices, he sido reconocida como mujer de ejemplo en el campo de la ciencia y tecnología.",
+        "talk": {
+            "schedule": "4:45 PM",
+            "format": "Talk (40 minutes)",
+            "title": "UX Research: el corazón de la innovación ",
+            "abstract": "En esta charla conoceremos cómo las grandes empresas crean soluciones innovadoras partiendo de los usuarios y de paso, lo vuelven un negocio rentable.",
+            "description": "El UX Research se centra en levantar información para crear productos seguros aprueba de riesgos financieros, en esta charla aprenderemos a cómo se hace esto y siendo nosotros desarrolladores, cómo podemos crear soluciones tecnológicas viables que puedan respaldar nuestra calidad profesional y la de nuestro producto, de cara a las empresas del mercado.",
+            "notes": "",
+            "audience_level": "Intermediate",
+            },
+        "tags": [
+            "software development",
+            "ux",
+            "user research",
+            "design"
+        ],
+        "socials": [
+            {
+                "icon": "fab fa-twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/marilennywords"
+            },
+            {
+                "icon": "fas fa-link",
+                "name": "Link",
+                "link": "http://www.marilennysoriano.com",
+            },
+        ],
+        "status": "accepted",
+        "confirmed": true
+    },
+    {
+        "name": "Pablo Moreno",
+        "avatar": "img/speakers/pablo_moreno.png",
+        "location": "R.D.",
+        "bio": "Científico de datos especializado en áreas financiera y de negocio con amplia experiencia en inteligencia de negocios, analítica avanzada, análisis predictivo y aprendizaje automático. Mas de 2 décadas de experiencia profesional en entornos internacionales y mercados financieros como bolsa y Mercado de divisas. Autor del libro ‘Machine Learning en Power BI con R y Python’",
+        "talk": {
+            "schedule": "5:30 PM",
+            "format": "Talk (60-180 minutes)",
+            "title": "Como usar R y Python en Power BI para generar apllicaciones y soluciones de aprendizaje automatico y analisis predictivo.",
+            "abstract": "",
+            "description":"",
+            "audience_level": "All",
+        },
+        "socials": [
+            {
+                "icon": "fas fa-link",
+                "name": "Link",
+                "link": "https://mvp.microsoft.com/en-us/PublicProfile/5003432?fullName=Pablo%20%20Moreno",
+            },
+        ],
+        "status": "accepted",
+        "confirmed": true
+    },
+
 ];
