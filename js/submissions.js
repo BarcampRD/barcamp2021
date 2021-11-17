@@ -398,7 +398,7 @@ const submissions = [
         "talk": {
             "schedule": "5:30 PM",
             "format": "Talk (60-180 minutes)",
-            "title": "Como usar R y Python en Power BI para generar apllicaciones y soluciones de aprendizaje automatico y analisis predictivo.",
+            "title": "Cómo usar R y Python en Power BI para generar aplicaciones y soluciones de aprendizaje automático y análisis predictivo.",
             "abstract": "",
             "description":"",
             "audience_level": "All",
