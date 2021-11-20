@@ -175,7 +175,7 @@ const submissions = [
     },
     {
         "name": "Raldy De Oleo",
-		"avatar": "https://secure.gravatar.com/avatar/6477b13892d8411e464c947a258b9ff1?s=500",
+		"avatar": "img/speakers/raldy_de_oleo.jpeg",
 		"country": "Unknown",
 		"bio": "Im a software developer with more than 5 years of experience working for big local companies developing C# enterprise solutions. I studied at UASD, Santiago de los caballeros, ITLA, and a Videogame, AR/VR Certification at t-ecogroup.",
         "talk": {
